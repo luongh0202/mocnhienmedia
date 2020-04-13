@@ -1129,3 +1129,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.list-icons {
+  list-style: none;
+}
+.list-icons li {
+  padding-left: 10px;
+}
+.list-icons li:first-of-type {
+  padding-left: 0px;
+}
