@@ -1140,3 +1140,36 @@ h1, h2, h3, h4, h5, h6 {
 .list-icons li:first-of-type {
   padding-left: 0px;
 }
+
+
+.contact {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 10;
+}
+.contact ul {
+  list-style: none;
+  font-size: 20px;
+  margin: 0;
+  background: #6173f4;
+  border-top-left-radius: 30%;
+  border-bottom-left-radius: 30%;
+  padding: 14px;
+  text-align: right;
+}
+.contact ul li {
+  margin-bottom: 10px;
+}
+.contact ul li a {
+  color: #fff;
+}
+.contact ul li a i {
+  margin-left: 5px;
+}
+@media (max-width: 767px) {
+  .contact {
+    top: auto;
+    bottom: 20px;
+  }
+}
