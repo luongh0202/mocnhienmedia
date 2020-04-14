@@ -238,12 +238,15 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h2 {
   font-size: 50px;
   font-weight: 300;
-  color: #444;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
+  background: #6173f4;
+  border-radius: 20px;
+
 }
 .section-heading h2:after {
   content: "";
@@ -264,7 +267,10 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading h3 {
   font-weight: 300;
   line-height: 1.5;
-  color: #929292;
+  color: #fff;
+  background: #6173f4;
+  border-radius: 20px;
+  padding: 10px;
 }
 @media screen and (max-width: 768px) {
   .section-heading h3 {
@@ -450,7 +456,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-our-services,
 #fh5co-press {
-  background: #f4f4f4;
+  /* background: #f4f4f4; */
+  background-image: url('../images/f5afc40055b8aee6f7a9.jpg');
 }
 
 #fh5co-our-services .box {
@@ -1144,7 +1151,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact {
   position: fixed;
-  top: 30%;
+  top: 60%;
   right: 0;
   z-index: 10;
 }
