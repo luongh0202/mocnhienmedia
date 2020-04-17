@@ -623,6 +623,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   top: 0;
   background-size: cover;
+  background-position: center;
 }
 @media screen and (max-width: 480px) {
   #fh5co-press .fh5co-press-item .fh5co-press-img {
